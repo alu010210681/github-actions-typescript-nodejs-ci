@@ -1,0 +1,1 @@
+{"processes":{"295f5227-eae9-4ba2-8e07-6efc746ad608":{"parent":null,"children":["5888722c-73d0-4ff5-a17f-cc438cc2a6e3"]},"5888722c-73d0-4ff5-a17f-cc438cc2a6e3":{"parent":"295f5227-eae9-4ba2-8e07-6efc746ad608","children":[]}},"files":{"/home/usuario/DSI/github-actions-typescript-nodejs-ci/src/basicFunctions.ts":["5888722c-73d0-4ff5-a17f-cc438cc2a6e3"]},"externalIds":{}}

@@ -1,6 +1,7 @@
 
 
 type Action = [string, string, string];
+
 /**
  * @description "Clase creada por el patron de diseño singleton sobre el registro de acciones en el sistema"
  * @class

@@ -1,42 +1,32 @@
 {
-  "name": "practica-6",
+  "name": "doc-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "basicFunctions.js",
+  "type": "module",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
-    "test": "mocha",
-    "lint": "eslint . --ext .ts",
-    "format": "prettier --write .",
+    "dev": "tsc-watch --onSuccess \"node dist/basicFunctions.js\"",
     "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=lcov"
+    "test": "mocha",
+    "coverage": "c8 npm test && c8 report --reporter=lcov"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.2.15",
-    "@types/jest": "^29.5.12",
-    "@types/mocha": "^8.2.3",
-    "@types/node": "^20.11.24",
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
-    "chai": "^4.3.0",
-    "coveralls": "^3.1.0",
-    "eslint": "^8.56.0",
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10.3.0",
-    "nyc": "^15.1.0",
     "prettier": "^3.2.5",
-    "ts-node": "^9.1.1",
+    "ts-node": "^10.9.2",
     "tsc-watch": "^6.0.4",
+    "typedoc": "^0.25.10",
     "typescript": "^5.3.3"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "description": "",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "punycode": "^2.3.1"
   }
 }

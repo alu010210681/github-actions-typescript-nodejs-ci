@@ -1,0 +1,42 @@
+{
+  "name": "practica-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "test": "mocha",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "doc": "typedoc",
+    "coverage": "nyc npm test && nyc report --reporter=lcov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/jest": "^29.5.12",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "chai": "^4.3.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "mocha": "^10.3.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "punycode": "^2.3.1"
+  }
+}

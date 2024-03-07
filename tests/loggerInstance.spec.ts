@@ -1,7 +1,7 @@
 import 'mocha';
 import {expect} from 'chai';
 
-import {LoggerInstance} from '../src/LoggerInstance'
+import {LoggerInstance} from '../src/LoggerInstance.js'
 
 
 type Action = [string, string, string];
